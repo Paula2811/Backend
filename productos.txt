@@ -1,0 +1,20 @@
+[
+    {
+        "title": "Cartuchera",
+        "price": 1200,
+        "imgurl": "https://http2.mlstatic.com/D_NQ_NP_996400-MLA32738055325_112019-O.jpg",
+        "id": 1
+    },
+    {
+        "title": "Resaltador Stabilo Pastel",
+        "price": 980,
+        "imgurl": "https://http2.mlstatic.com/D_NQ_NP_645415-MLA46333170733_062021-O.jpg",
+        "id": 2
+    },
+    {
+        "title": "Cuaderno Cherhane A5",
+        "price": "2300",
+        "imgurl": "https://d3ugyf2ht6aenh.cloudfront.net/stores/891/147/products/image0-21-5e2edd3aa8137d541316216162123526-1024-1024.jpeg",
+        "id": 3
+    }
+]

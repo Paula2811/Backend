@@ -42,10 +42,17 @@ app.get('/productoRandom', (req, res) => {
     res.send(`Produsto elegido al azar: ${productosJs}`)
 })
 
+//Con el desafio anterior
 app.get('/productostxt', (req, res) => {
-    res.json({
-        productos:prods.getAll()
-    })
+    prods.getAll().then(resp => res.send(resp))
+})
+
+app.get('/productoRandomtxt', (req, res) => {
+    prods.getAll().then(resp => res.send(
+        resp[
+            Math.floor(Math.random()*resp.length)
+        ]
+        ))
 })
 
 app.listen(port,()=>{

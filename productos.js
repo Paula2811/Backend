@@ -35,7 +35,7 @@ class Contenedor{
             return JSON.parse(objs)
         }
         catch(err){
-            return []
+            return "Error de lectura"
         }
     }
 
